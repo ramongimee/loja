@@ -11,11 +11,11 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 import br.com.alura.microservice.loja.client.FornecedorClient;
 import br.com.alura.microservice.loja.client.TransportadorClient;
-import br.com.alura.microservice.loja.controller.dto.CompraDTO;
-import br.com.alura.microservice.loja.controller.dto.InfoEntregaDTO;
-import br.com.alura.microservice.loja.controller.dto.InfoFornecedorDTO;
-import br.com.alura.microservice.loja.controller.dto.InfoPedidoDTO;
-import br.com.alura.microservice.loja.controller.dto.VoucherDTO;
+import br.com.alura.microservice.loja.dto.CompraDTO;
+import br.com.alura.microservice.loja.dto.InfoEntregaDTO;
+import br.com.alura.microservice.loja.dto.InfoFornecedorDTO;
+import br.com.alura.microservice.loja.dto.InfoPedidoDTO;
+import br.com.alura.microservice.loja.dto.VoucherDTO;
 import br.com.alura.microservice.loja.model.Compra;
 import br.com.alura.microservice.loja.model.CompraState;
 import br.com.alura.microservice.loja.repository.CompraRepository;
